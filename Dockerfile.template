@@ -1,0 +1,7 @@
+FROM bash:0.0.0
+
+MAINTAINER Cosmin Titei
+
+RUN apk add --no-cache curl
+
+CMD ["bash"]
